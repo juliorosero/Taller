@@ -1,27 +1,34 @@
 package epn;
 
+import java.util.StringTokenizer;
+
 public class Nodo {
-	private String libro;
+	private String compras;
     private Nodo siguiente;
+    
+    
+    
+    
     
     
     
     public Nodo() {
 		super();
-		this.libro = "";
+		this.compras = "";
 		this.siguiente = null;
+
 	}
 
 
 
-	public String getLibro() {
-		return libro;
+	public String getCompras() {
+		return compras;
 	}
 
 
 
-	public void setLibro(String libro) {
-		this.libro = libro;
+	public void setCompras(String compras) {
+		this.compras = compras;
 	}
 
 
@@ -36,5 +43,5 @@ public class Nodo {
 		this.siguiente = siguiente;
 	}
 
-	
+
 }
